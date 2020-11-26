@@ -13,12 +13,11 @@
 
 #define MAX_LINE 1024
 #define MAX_USERNAME 25
-char usage[] = "\nFunction Intro:\n"
-              "/q, /quit: quit\n"
-	          "/list : list online user\n"
-	          "/chat : chat to specific user\n"
-	          "/chess : play tic tac toe to specific user\n";
-
+char usage[] = "\Command List:\n"
+               "/q, /quit: quit\n"
+	           "/list : list all user\n"
+	           "/chat : chat to specific user\n"
+	           "/chess : play tic tac toe to specific user\n";
 typedef struct thread_data thread_data;
 struct thread_data
 {
